@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cafe Florette | Accueil</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      media="only screen and (max-width:500px)"
+      href="style.mobile.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/4b04ab7b58.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <h1>
+          <a href="/index.html">CAFE FLORETTE</a>
+        </h1>
+        <ul>
+          <li><a href="index.html">Acceuil</a></li>
+          <li><a href="where.html">Nous trouvez</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="contact">
+      <div class="contact-form-container">
+        <form action="#">
+          <h1>Une question ? Contactez nous</h1>
+          <label class="my-20" for="Name">Nom</label>
+          <input type="text" name="Name" id="Name" />
+          <label class="my-20" for="Email">Email</label>
+          <input type="email" name="Email" id="Email" />
+          <label class="my-20" for="question">Questions et remarques </label>
+          <textarea name="question" id="question"></textarea>
+          <button class="btn btn-dark my-20" type="submit">Soumettre</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <p>Copyright © - 2023</p>
+    </footer>
+  </body>
+</html>
